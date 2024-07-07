@@ -49,5 +49,13 @@
   .cards {
     flex-direction: column;
     padding: 0;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    width: 1400px;
+    margin: auto;
   }
 }
